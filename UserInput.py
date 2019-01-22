@@ -1,0 +1,22 @@
+name = input("Enter your name: ")
+age = input("What is your age? ")
+print("Hello "+name+" !!!")
+print("You are "+age+" years old!")
+
+print("We are building an addition calculator!")
+num1 = input("Enter a number ")
+num2 = input("Enter another number ")
+result=float(num1)+float(num2)
+print(result)
+print("If we only want whole number inputs, we use INT instead of FLOAT")
+
+print("We are making a MadLib game!")
+name=input("Enter a superhero name ")
+city=input("Enter a city name ")
+villain=input("Enter a villain name ")
+superpower=input("Enter a superpower ")
+print("Meet our hero, the young, strong, and intelligent "+name+".")
+print(name+" grew up in the fictional metropolis of "+city+".")
+print(name+"'s arch nemesis is the dreaded evil "+villain+".")
+print("By mastering the power of "+superpower+", the world can be saved from all forces of malevolence!")
+
